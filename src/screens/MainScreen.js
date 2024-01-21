@@ -2,7 +2,7 @@ import { FlatList, Text, TextInput, TouchableOpacity, View } from "react-native"
 import { styles } from "../tools/styles";
 import { useState } from "react";
 import { Separator } from "../components/Separator";
-import { City } from "../models/City";
+import { City } from "../components/City";
 import { Spacer } from "../components/Spacer";
 
 
