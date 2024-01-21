@@ -12,14 +12,13 @@ export default function Navigation() {
                 <Stack.Screen 
                 name="MainScreen" 
                 component={MainScreen} 
-                options={{title:"City Infos", headerStyle: {
-                    backgroundColor: '#FFCF81'
-                  },}} 
-                />
-                <Stack.Screen 
-                name="ListScreen" 
-                component={ListScreen}
-                options={{title:"Les villes", headerStyle: "red"}} 
+                options={{
+                    title:"City Infos", 
+                    headerStyle: {
+                        backgroundColor: '#FFCF81'
+                    },
+                    headerTintColor: 'white'
+                }} 
                 />
             </Stack.Navigator>
         </NavigationContainer>
